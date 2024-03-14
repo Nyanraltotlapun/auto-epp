@@ -11,6 +11,7 @@
   - [For Archlinux](#for-arch-linux)
 - [Manual Install](#manual-install)
 - [Usage](#usage)
+- [Uninstall](#uninstall)
 
 ## Requirements
 
@@ -79,4 +80,12 @@ sudo systemctl restart auto-epp
 Edit the config file
 ```bash
 sudo nano /etc/auto-epp.conf
+```
+
+# uninstall
+
+To uninstall auto-epp
+```bash
+chmod +x ./uninstall.sh
+sudo ./uninstall.sh
 ```
